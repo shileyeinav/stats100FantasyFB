@@ -1,0 +1,779 @@
+﻿Year,No.,Round,Pick,OverallPick,Player,Team,College
+2023,1,1,20,20,Jaxon Smith-Njigba,Seahawks,Ohio State
+2023,2,1,21,21,Quentin Johnston,Chargers,Texas Christian
+2023,3,1,22,22,Zay Flowers,Ravens,Boston College
+2023,4,1,23,23,Jordan Addison,Vikings,USC
+2023,5,2,8,39,Jonathan Mingo,Panthers,Mississippi
+2023,6,2,19,50,Jayden Reed,Packers,Michigan State
+2023,7,2,24,55,Rashee Rice,Chiefs,Southern Methodist
+2023,8,2,32,63,Marvin Mims,Broncos,Oklahoma
+2023,9,3,6,69,Nathaniel Dell,Texans,Houston
+2023,10,3,10,73,Jalin Hyatt,Giants,Tennessee
+2023,11,3,11,74,Cedric Tillman,Browns,Tennessee
+2023,12,3,16,79,Josh Downs,Colts,North Carolina
+2023,13,3,31,94,Michael Wilson,Cardinals,Stanford
+2023,14,3,37,100,Tre Tucker,Raiders,Cincinnati
+2023,15,4,23,125,Derius Davis,Chargers,Texas Christian
+2023,16,4,29,131,Charlie Jones,Bengals,Purdue
+2023,17,4,31,133,Tyler Scott,Bears,Cincinnati
+2023,18,5,15,150,Justin Shorter,Bills,Florida
+2023,19,5,24,159,Dontayvion Wicks,Packers,Virginia
+2023,20,5,42,177,Puka Nacua,Rams,Brigham Young
+2023,21,6,8,185,Parker Washington,Jaguars,Penn State
+2023,22,6,10,187,Kayshon Boutte,Patriots,Louisiana State
+2023,23,6,14,191,Trey Palmer,Buccaneers,Nebraska
+2023,24,6,18,195,A.T. Perry,Saints,Wake Forest
+2023,25,6,28,205,Xavier Hutchinson,Texans,Iowa State
+2023,26,6,29,206,Andrei Iosivas,Bengals,Princeton
+2023,27,6,33,210,Demario Douglas,Patriots,Liberty
+2023,28,7,2,219,Antoine Green,Lions,North Carolina
+2023,29,7,11,228,Cotton Dowell,Titans,Tennessee-Martin
+2023,30,7,27,244,Jalen Brooks,Cowboys,South Carolina
+2023,31,7,36,253,Ronnie Bell,49ers,Michigan
+2023,32,7,39,256,Grant DuBose,Packers,Charlotte
+2022,1,1,8,8,Drake London,Falcons,USC
+2022,2,1,10,10,Garrett Wilson,Jets,Ohio State
+2022,3,1,11,11,Chris Olave,Saints,Ohio State
+2022,4,1,12,12,Jameson Williams,Lions,Alabama
+2022,5,1,16,16,Jahan Dotson,Commanders,Penn State
+2022,6,1,18,18,Treylon Burks,Titans,Arkansas
+2022,7,2,2,34,Christian Watson,Packers,North Dakota State
+2022,8,2,11,43,Wan'Dale Robinson,Giants,Kentucky
+2022,9,2,12,44,John Metchie,Texans,Alabama
+2022,10,2,18,50,Tyquan Thornton,Patriots,Baylor
+2022,11,2,20,52,George Pickens,Steelers,Georgia
+2022,12,2,21,53,Alec Pierce,Colts,Cincinnati
+2022,13,2,22,54,Skyy Moore,Chiefs,Western Michigan
+2022,14,3,7,71,Velus Jones,Bears,Tennessee
+2022,15,3,24,88,Jalen Tolbert,Cowboys,South Alabama
+2022,16,3,35,99,David Bell,Browns,Purdue
+2022,17,3,41,105,Danny Gray,49ers,Southern Methodist
+2022,18,4,20,125,Erik Ezukanma,Dolphins,Texas Tech
+2022,19,4,27,132,Romeo Doubs,Packers,Nevada
+2022,20,4,33,138,Calvin Austin,Steelers,Memphis
+2022,21,5,5,148,Khalil Shakir,Bills,Boise State
+2022,22,5,19,162,Montrell Washington,Broncos,Samford
+2022,23,5,20,163,Kyle Philips,Titans,UCLA
+2022,24,6,12,191,Jalen Nailor,Vikings,Michigan State
+2022,25,6,23,202,Michael Woods,Browns,Oklahoma
+2022,26,7,8,229,Bo Melton,Seahawks,Rutgers
+2022,27,7,12,233,Dareke Young,Seahawks,Lenoir-Rhyne
+2022,28,7,37,258,Samori Toure,Packers,Nebraska
+2021,1,1,5,5,Ja'Marr Chase,Bengals,Louisiana State
+2021,2,1,6,6,Jaylen Waddle,Dolphins,Alabama
+2021,3,1,10,10,DeVonta Smith,Eagles,Alabama
+2021,4,1,20,20,Kadarius Toney,Giants,Florida
+2021,5,1,27,27,Rashod Bateman,Ravens,Minnesota
+2021,6,2,2,34,Elijah Moore,Jets,Mississippi
+2021,7,2,17,49,Rondale Moore,Cardinals,Purdue
+2021,8,2,24,56,D'Wayne Eskridge,Seahawks,Western Michigan
+2021,9,2,25,57,Tutu Atwell,Rams,Louisville
+2021,10,2,27,59,Terrace Marshall,Panthers,Louisiana State
+2021,11,3,13,77,Josh Palmer,Chargers,Tennessee
+2021,12,3,18,82,Dyami Brown,Team,North Carolina
+2021,13,3,21,85,Amari Rodgers,Packers,Clemson
+2021,14,3,25,89,Nico Collins,Texans,Michigan
+2021,15,3,27,91,Anthony Schwartz,Browns,Auburn
+2021,16,4,4,109,Dez Fitzpatrick,Titans,Louisville
+2021,17,4,7,112,Amon-Ra St. Brown,Lions,USC
+2021,18,4,24,129,Jaelon Darden,Buccaneers,North Texas
+2021,19,4,26,131,Tylan Wallace,Ravens,Oklahoma State
+2021,20,5,13,157,Ihmir Smith-Marsette,Vikings,Iowa
+2021,21,5,35,179,Simi Fehoko,Cowboys,Stanford
+2021,22,5,37,181,Cornell Powell,Chiefs,Clemson
+2021,23,6,3,187,Frank Darby,Falcons,Arizona State
+2021,24,6,19,203,Marquez Stevenson,Bills,Houston
+2021,25,6,20,204,Shi Smith,Panthers,South Carolina
+2021,26,6,21,205,Racey McMath,Titans,Louisiana State
+2021,27,6,25,209,Jalen Camp,Jaguars,Georgia Tech
+2021,28,6,35,219,Seth Williams,Broncos,Auburn
+2021,29,6,37,221,Dazz Newsome,Bears,North Carolina
+2021,30,7,1,229,Mike Strachan,Colts,Charleston
+2021,31,7,15,242,Tre Nixon,Patriots,Central Florida
+2021,32,7,22,249,Ben Skowronek,Rams,Notre Dame
+2021,33,7,28,255,Kawaan Baker,Saints,South Alabama
+2021,34,7,31,258,Dax Milne,Team,Brigham Young
+2020,1,1,12,12,Henry Ruggs,Raiders,Alabama
+2020,2,1,15,15,Jerry Jeudy,Broncos,Alabama
+2020,3,1,17,17,CeeDee Lamb,Cowboys,Oklahoma
+2020,4,1,21,21,Jalen Reagor,Eagles,Texas Christian
+2020,5,1,22,22,Justin Jefferson,Vikings,Louisiana State
+2020,6,1,25,25,Brandon Aiyuk,49ers,Arizona State
+2020,7,2,1,33,Tee Higgins,Bengals,Clemson
+2020,8,2,2,34,Michael Pittman,Colts,USC
+2020,9,2,10,42,Laviska Shenault,Jaguars,Colorado
+2020,10,2,14,46,KJ Hamler,Broncos,Penn State
+2020,11,2,17,49,Chase Claypool,Steelers,Notre Dame
+2020,12,2,25,57,Van Jefferson,Rams,Florida
+2020,13,2,27,59,Denzel Mims,Jets,Baylor
+2020,14,3,2,66,Antonio Gibson,Redskins,Memphis
+2020,15,3,16,80,Lynn Bowden,Raiders,Kentucky
+2020,16,3,17,81,Bryan Edwards,Raiders,South Carolina
+2020,17,3,28,92,Devin Duvernay,Ravens,Texas
+2020,18,4,22,128,Gabriel Davis,Bills,Central Florida
+2020,19,4,36,142,Antonio Gandy-Golden,Redskins,Liberty
+2020,20,5,5,151,Joe Reed,Chargers,Virginia
+2020,21,5,15,161,Tyler Johnson,Buccaneers,Minnesota
+2020,22,5,19,165,Collin Johnson,Jaguars,Texas
+2020,23,5,20,166,Quintez Cephus,Lions,Wisconsin
+2020,24,5,22,168,John Hightower,Eagles,Boise State
+2020,25,5,25,171,Isaiah Coulter,Texans,Rhode Island
+2020,26,5,27,173,Darnell Mooney,Bears,Tulane
+2020,27,5,30,176,K.J. Osborn,Vikings,Miami (FL)
+2020,28,6,8,187,Donovan Peoples-Jones,Browns,Michigan
+2020,29,6,21,200,Quez Watkins,Eagles,Southern Mississippi
+2020,30,6,22,201,James Proche,Ravens,Southern Methodist
+2020,31,6,28,207,Isaiah Hodgins,Bills,Oregon State
+2020,32,6,33,212,Dezmon Patmon,Colts,Washington State
+2020,33,6,35,214,Freddie Swain,Seahawks,Florida
+2020,34,7,3,217,Jauan Jennings,49ers,Tennessee
+2020,35,7,6,220,K.J. Hill,Chargers,Ohio State
+2020,36,7,32,246,Malcolm Perry,Dolphins,Navy
+2020,37,7,38,252,Tyrie Cleveland,Broncos,Florida
+2019,1,1,25,25,Marquise Brown,Ravens,Oklahoma
+2019,2,1,32,32,N'Keal Harry,Patriots,Arizona State
+2019,3,2,4,36,Deebo Samuel,49ers,South Carolina
+2019,4,2,19,51,A.J. Brown,Titans,Mississippi
+2019,5,2,24,56,Mecole Hardman,Chiefs,Georgia
+2019,6,2,25,57,JJ Arcega-Whiteside,Eagles,Stanford
+2019,7,2,27,59,Parris Campbell,Colts,Ohio State
+2019,8,2,30,62,Andy Isabella,Cardinals,Massachusetts
+2019,9,2,32,64,D.K. Metcalf,Seahawks,Mississippi
+2019,10,3,2,66,Diontae Johnson,Steelers,Toledo
+2019,11,3,3,67,Jalen Hurd,49ers,Baylor
+2019,12,3,12,76,Terry McLaurin,Redskins,Ohio State
+2019,13,3,29,93,Miles Boykin,Ravens,Notre Dame
+2019,14,4,1,103,Hakeem Butler,Cardinals,Iowa State
+2019,15,4,18,120,Gary Jennings,Seahawks,West Virginia
+2019,16,4,24,126,Riley Ridley,Bears,Georgia
+2019,17,5,11,149,Hunter Renfrow,Raiders,Clemson
+2019,18,5,26,164,EJ Speed,Colts,Tarleton State
+2019,19,5,33,171,Darius Slayton,Giants,Auburn
+2019,20,6,1,174,KeeSean Johnson,Cardinals,Fresno State
+2019,21,6,11,184,Travis Fulgham,Lions,Old Dominion
+2019,22,6,14,187,Juwann Winfree,Broncos,Colorado
+2019,23,6,30,203,Marcus Green,Falcons,Louisiana-Monroe
+2019,24,6,33,206,Kelvin Harmon,Redskins,North Carolina State
+2019,25,6,35,208,Scott Miller,Buccaneers,Bowling Green
+2019,26,7,22,236,John Ursua,Seahawks,Hawaii
+2019,27,7,23,237,Terry Godwin,Panthers,Georgia
+2019,28,7,25,239,Dillon Mitchell,Vikings,Oregon
+2019,29,7,33,247,Olabisi Johnson,Vikings,Colorado State
+2018,1,1,24,24,D.J. Moore,Panthers,Maryland
+2018,2,1,26,26,Calvin Ridley,Falcons,Alabama
+2018,3,2,8,40,Courtland Sutton,Broncos,Southern Methodist
+2018,4,2,12,44,Dante Pettis,49ers,Washington
+2018,5,2,15,47,Christian Kirk,Cardinals,Texas A&M
+2018,6,2,19,51,Anthony Miller,Bears,Memphis
+2018,7,2,28,60,James Washington,Steelers,Oklahoma State
+2018,8,2,29,61,DJ Chark,Jaguars,Louisiana State
+2018,9,3,17,81,Michael Gallup,Cowboys,Colorado State
+2018,10,3,27,91,Tre'Quan Smith,Saints,Central Florida
+2018,11,4,3,103,Keke Coutee,Texans,Texas Tech
+2018,12,4,5,105,Antonio Callaway,Browns,Florida
+2018,13,4,13,113,DaeSean Hamilton,Broncos,Penn State
+2018,14,4,32,132,Jaleel Scott,Ravens,New Mexico State
+2018,15,4,33,133,J'Mon Moore,Packers,Missouri
+2018,16,5,7,144,Justin Watson,Buccaneers,Pennsylvania
+2018,17,5,22,159,Daurice Fountain,Colts,Northern Iowa
+2018,18,5,25,162,Jordan Lasley,Ravens,UCLA
+2018,19,5,37,174,Marquez Valdes-Scantling,Packers,South Florida
+2018,20,6,1,175,Damion Ratley,Browns,Texas A&M
+2018,21,6,11,185,Deon Cain,Colts,Clemson
+2018,22,6,13,187,Ray-Ray McCloud,Bills,Clemson
+2018,23,6,17,191,Dylan Cantrell,Chargers,Texas Tech
+2018,24,6,20,194,Russell Gage,Falcons,Louisiana State
+2018,25,6,33,207,Equanimeous St. Brown,Packers,Notre Dame
+2018,26,6,34,208,Cedrick Wilson,Cowboys,Boise State
+2018,27,6,36,210,Braxton Berrios,Patriots,Miami (FL)
+2018,28,7,6,224,Javon Wims,Bears,Georgia
+2018,29,7,10,228,Marcell Ateman,Raiders,Oklahoma State
+2018,30,7,22,240,Richie James,49ers,Middle Tennessee
+2018,31,7,35,253,Auden Tate,Bengals,Florida State
+2018,32,7,37,255,Austin Proehl,Bills,North Carolina
+2018,33,7,38,256,Trey Quinn,Redskins,Southern Methodist
+2017,1,1,5,5,Corey Davis,Titans,Western Michigan
+2017,2,1,7,7,Mike Williams,Chargers,Clemson
+2017,3,1,9,9,John Ross,Bengals,Washington
+2017,4,2,5,37,Zay Jones,Bills,East Carolina
+2017,5,2,8,40,Curtis Samuel,Panthers,Ohio State
+2017,6,2,30,62,JuJu Smith-Schuster,Steelers,USC
+2017,7,3,5,69,Cooper Kupp,Rams,Eastern Washington
+2017,8,3,8,72,Taywan Taylor,Titans,Western Kentucky
+2017,9,3,15,79,ArDarius Stewart,Jets,Alabama
+2017,10,3,18,82,Carlos Henderson,Broncos,Louisiana Tech
+2017,11,3,20,84,Chris Godwin,Buccaneers,Penn State
+2017,12,3,32,96,Kenny Golladay,Lions,Northern Illinois
+2017,13,3,34,98,Chad Williams,Cardinals,Grambling State
+2017,14,3,42,106,Amara Darboh,Seahawks,Michigan
+2017,15,4,3,110,Dede Westbrook,Jaguars,Oklahoma
+2017,16,4,10,117,Josh Reynolds,Rams,Texas A&M
+2017,17,4,12,118,Mack Hollins,Eagles,North Carolina
+2017,18,4,22,128,Josh Malone,Bengals,Tennessee
+2017,19,4,27,133,Ryan Switzer,Cowboys,North Carolina
+2017,20,4,33,139,Jehu Chesson,Chiefs,Michigan
+2017,21,4,35,141,Chad Hansen,Jets,California
+2017,22,5,22,166,Shelton Gibson,Eagles,West Virginia
+2017,23,5,27,170,Rodney Adams,Vikings,South Florida
+2017,24,5,29,172,Isaiah McKenzie,Broncos,Georgia
+2017,25,5,32,175,DeAngelo Yancey,Packers,Purdue
+2017,26,5,34,177,Trent Taylor,49ers,Louisiana Tech
+2017,27,6,25,209,Robert Davis,Redskins,Georgia State
+2017,28,7,1,219,Stacy Coley,Vikings,Miami (FL)
+2017,29,7,8,226,David Moore,Seahawks,East Central (OK)
+2017,30,7,19,237,Isaiah Ford,Dolphins,Virginia Tech
+2017,31,7,21,239,Noah Brown,Cowboys,Ohio State
+2017,32,7,29,247,Malachi Dupre,Packers,Louisiana State
+2016,1,1,15,15,Corey Coleman,Browns,Baylor
+2016,2,1,21,21,Will Fuller,Texans,Notre Dame
+2016,3,1,22,22,Josh Doctson,Redskins,Texas Christian
+2016,4,1,23,23,Laquon Treadwell,Vikings,Mississippi
+2016,5,2,9,40,Sterling Shepard,Giants,Oklahoma
+2016,6,2,16,47,Michael Thomas,Saints,Ohio State
+2016,7,2,24,55,Tyler Boyd,Bengals,Pittsburgh
+2016,8,3,22,85,Braxton Miller,Texans,Ohio State
+2016,9,3,23,86,Leonte Carroo,Dolphins,Rutgers
+2016,10,4,9,107,Chris Moore,Ravens,Cincinnati
+2016,11,4,14,112,Malcolm Mitchell,Patriots,Georgia
+2016,12,4,16,114,Ricardo Louis,Browns,Auburn
+2016,13,4,19,117,Pharoh Cooper,Rams,South Carolina
+2016,14,4,28,126,Demarcus Robinson,Chiefs,Florida
+2016,15,5,1,140,Tajae Sharpe,Titans,Massachusetts
+2016,16,5,15,154,Jordan Payton,Browns,UCLA
+2016,17,5,26,163,Trevor Davis,Packers,California
+2016,18,5,28,165,Tyreek Hill,Chiefs,West Alabama
+2016,19,5,35,172,Rashard Higgins,Browns,Colorado State
+2016,20,6,5,180,Moritz Boehringer,Vikings,None
+2016,21,6,11,186,Jakeem Grant,Dolphins,Texas Tech
+2016,22,6,17,192,Kolby Listenbee,Bills,Texas Christian
+2016,23,6,24,199,Cody Core,Bengals,Mississippi
+2016,24,6,31,206,Mike Thomas,Rams,Southern Mississippi
+2016,25,6,38,213,Aaron Burbridge,49ers,Michigan State
+2016,26,7,4,225,Devin Lucien,Patriots,Arizona State
+2016,27,7,8,229,DeMarcus Ayers,Steelers,Houston
+2016,28,7,9,230,Daniel Braverman,Bears,Western Michigan
+2016,29,7,17,238,Devin Fuller,Falcons,UCLA
+2016,30,7,20,241,Charone Peake,Jets,Clemson
+2016,31,7,22,243,Kenny Lawler,Seahawks,California
+2015,1,1,4,4,Amari Cooper,Raiders,Alabama
+2015,2,1,7,7,Kevin White,Bears,West Virginia
+2015,3,1,14,14,DeVante Parker,Dolphins,Louisville
+2015,4,1,20,20,Nelson Agholor,Eagles,USC
+2015,5,1,26,26,Breshad Perriman,Ravens,Central Florida
+2015,6,1,29,29,Phillip Dorsett,Colts,Miami (FL)
+2015,7,2,5,37,Devin Smith,Jets,Ohio State
+2015,8,2,8,40,Dorial Green-Beckham,Titans,Missouri
+2015,9,2,9,41,Devin Funchess,Panthers,Michigan
+2015,10,3,5,69,Tyler Lockett,Seahawks,Kansas State
+2015,11,3,6,70,Jaelen Strong,Texans,Arizona State
+2015,12,3,12,76,Chris Conley,Chiefs,Georgia
+2015,13,3,23,87,Sammie Coates,Steelers,Auburn
+2015,14,3,30,94,Ty Montgomery,Packers,Stanford
+2015,15,4,6,105,Jamison Crowder,Redskins,Duke
+2015,16,4,8,107,Justin Hardy,Falcons,East Carolina
+2015,17,4,24,123,Vince Mayle,Browns,Washington State
+2015,18,4,33,132,DeAndre Smelter,49ers,Georgia Tech
+2015,19,5,3,139,Rashad Greene,Jaguars,Florida State
+2015,20,5,10,146,Stefon Diggs,Vikings,Maryland
+2015,21,5,20,156,Tony Lippett,Dolphins,Michigan State
+2015,22,5,23,159,J.J. Nelson,Cardinals,Alabama-Birmingham
+2015,23,5,26,162,Kenny Bell,Buccaneers,Nebraska
+2015,24,5,39,175,Keith Mumphery,Texans,Michigan State
+2015,25,6,8,184,Kaelin Clay,Buccaneers,Utah
+2015,26,6,10,186,Geremy Davis,Giants,Connecticut
+2015,27,6,11,187,Evan Spencer,Redskins,Ohio State
+2015,28,6,25,201,Bud Sasser,Rams,Missouri
+2015,29,6,28,204,Darren Waller,Ravens,Georgia Tech
+2015,30,7,3,220,Neal Sterling,Jaguars,Monmouth
+2015,31,7,4,221,Andre Debose,Raiders,Florida
+2015,32,7,16,233,Da'Ron Brown,Chiefs,Northern Illinois
+2015,33,7,17,234,Dezmin Lewis,Bills,Central Arkansas
+2015,34,7,21,238,Mario Alford,Bengals,West Virginia
+2015,35,7,28,245,Tre McBride,Titans,William & Mary
+2014,1,1,4,4,Sammy Watkins,Bills,Clemson
+2014,2,1,7,7,Mike Evans,Buccaneers,Texas A&M
+2014,3,1,12,12,Odell Beckham,Giants,Louisiana State
+2014,4,1,20,20,Brandin Cooks,Saints,Oregon State
+2014,5,1,28,28,Kelvin Benjamin,Panthers,Florida State
+2014,6,2,7,39,Marqise Lee,Jaguars,USC
+2014,7,2,10,42,Jordan Matthews,Eagles,Vanderbilt
+2014,8,2,13,45,Paul Richardson,Seahawks,Colorado
+2014,9,2,21,53,Davante Adams,Packers,Fresno State
+2014,10,2,24,56,Cody Latimer,Broncos,Indiana
+2014,11,2,29,61,Allen Robinson,Jaguars,Penn State
+2014,12,2,31,63,Jarvis Landry,Dolphins,Louisiana State
+2014,13,3,22,86,Josh Huff,Eagles,Oregon
+2014,14,3,26,90,Donte Moncrief,Colts,Mississippi
+2014,15,3,27,91,John Brown,Cardinals,Pittsburg State (KS)
+2014,16,4,4,104,Jalen Saunders,Jets,Oklahoma
+2014,17,4,6,106,Bruce Ellington,49ers,South Carolina
+2014,18,4,15,115,Shaq Evans,Jets,UCLA
+2014,19,4,18,118,Martavis Bryant,Steelers,Clemson
+2014,20,4,23,123,Kevin Norwood,Seahawks,Alabama
+2014,21,5,2,142,Ryan Grant,Redskins,Tulane
+2014,22,5,6,146,Devin Street,Cowboys,Pittsburgh
+2014,23,5,36,176,Jared Abbrederis,Packers,Wisconsin
+2014,24,6,9,185,Robert Herron,Buccaneers,Wyoming
+2014,25,6,13,189,T.J. Jones,Lions,Notre Dame
+2014,26,6,14,190,Matt Hazel,Dolphins,Coastal Carolina
+2014,27,6,20,196,Walt Powell,Cardinals,Murray State
+2014,28,6,33,209,Quincy Enunwa,Jets,Nebraska
+2014,29,7,3,218,Mike Campanaro,Ravens,Wake Forest
+2014,30,7,21,236,Jeff Janis,Packers,Saginaw Valley State
+2014,31,7,24,239,James Wright,Bengals,Louisiana State
+2014,32,7,25,240,Tevin Reese,Chargers,Baylor
+2014,33,7,29,244,Jeremy Gallon,Patriots,Michigan
+2013,1,1,8,8,Tavon Austin,Rams,West Virginia
+2013,2,1,27,27,DeAndre Hopkins,Texans,Clemson
+2013,3,1,29,29,Cordarrelle Patterson,Vikings,Tennessee
+2013,4,2,2,34,Justin Hunter,Titans,Tennessee
+2013,5,2,9,41,Robert Woods,Bills,USC
+2013,6,2,27,59,Aaron Dobson,Patriots,Marshall
+2013,7,3,12,74,Terrance Williams,Cowboys,Baylor
+2013,8,3,14,76,Keenan Allen,Chargers,California
+2013,9,3,16,78,Marquise Goodwin,Bills,Texas
+2013,10,3,17,79,Markus Wheaton,Steelers,Oregon State
+2013,11,3,30,92,Stedman Bailey,Rams,West Virginia
+2013,12,4,4,101,Ace Sanders,Jaguars,South Carolina
+2013,13,4,5,102,Josh Boyce,Patriots,Texas Christian
+2013,14,4,26,123,Chris Harper,Seahawks,Kansas State
+2013,15,4,31,128,Quinton Patton,49ers,Louisiana Tech
+2013,16,5,2,135,Denard Robinson,Jaguars,Michigan
+2013,17,5,11,144,Kenny Stills,Saints,Oklahoma
+2013,18,5,28,161,Tavarres King,Broncos,Georgia
+2013,19,6,3,171,Corey Fuller,Lions,Virginia Tech
+2013,20,6,6,174,Ryan Swope,Cardinals,Texas A&M
+2013,21,6,18,186,Justin Brown,Steelers,Oklahoma
+2013,22,6,27,195,Alan Bonner,Texans,Jacksonville State
+2013,23,6,29,197,Cobi Hamilton,Bengals,Arkansas
+2013,24,7,3,209,Brice Butler,Raiders,San Diego State
+2013,25,7,10,216,Charles Johnson,Packers,Grand Valley State
+2013,26,7,18,224,Kevin Dorsey,Packers,Maryland
+2013,27,7,30,236,Marquess Wilson,Bears,Washington State
+2013,28,7,32,238,Aaron Mellette,Ravens,Elon
+2012s,1,2,0,0,Josh Gordon,Browns,Baylor
+2012,1,1,5,5,Justin Blackmon,Jaguars,Oklahoma State
+2012,2,1,13,13,Michael Floyd,Cardinals,Notre Dame
+2012,3,1,20,20,Kendall Wright,Titans,Baylor
+2012,4,1,30,30,A.J. Jenkins,49ers,Illinois
+2012,5,2,1,33,Brian Quick,Rams,Appalachian State
+2012,6,2,11,43,Stephen Hill,Jets,Georgia Tech
+2012,7,2,13,45,Alshon Jeffery,Bears,South Carolina
+2012,8,2,22,54,Ryan Broyles,Lions,Oklahoma
+2012,9,2,31,63,Rueben Randle,Giants,Louisiana State
+2012,10,3,5,68,Devier Posey,Texans,Ohio State
+2012,11,3,6,69,T.J. Graham,Bills,North Carolina State
+2012,12,3,20,83,Mohamed Sanu,Bengals,Rutgers
+2012,13,3,29,92,T.Y. Hilton,Colts,Florida International
+2012,14,4,1,96,Chris Givens,Rams,Wake Forest
+2012,15,4,5,100,Travis Benjamin,Browns,Miami (FL)
+2012,16,4,9,104,Joe Adams,Panthers,Arkansas
+2012,17,4,12,107,Devon Wylie,Chiefs,Fresno State
+2012,18,4,23,118,Jarius Wright,Vikings,Arkansas
+2012,19,4,26,121,Keshawn Martin,Texans,Michigan State
+2012,20,4,27,122,Nick Toon,Saints,Wisconsin
+2012,21,4,39,134,Greg Childs,Vikings,Arkansas
+2012,22,5,17,152,Danny Coale,Cowboys,Virginia Tech
+2012,23,5,31,166,Marvin Jones,Bengals,California
+2012,24,5,33,168,Juron Criner,Raiders,Arizona
+2012,25,6,13,183,B.J. Cunningham,Dolphins,Michigan State
+2012,26,6,24,194,Marvin McNutt,Eagles,Iowa
+2012,27,6,28,198,Tommy Streeter,Ravens,Miami (FL)
+2012,28,6,36,206,LaVon Brazill,Colts,Ohio
+2012,29,7,20,227,Rishard Matthews,Dolphins,Nevada
+2012,30,7,24,231,Toney Clemons,Steelers,Colorado
+2012,31,7,28,235,Jeremy Ebert,Patriots,Northwestern
+2012,32,7,31,238,Junior Hemingway,Chiefs,Michigan
+2012,33,7,37,244,Jordan White,Jets,Western Michigan
+2011,1,1,4,4,A.J. Green,Bengals,Georgia
+2011,2,1,6,6,Julio Jones,Falcons,Alabama
+2011,3,1,26,26,Jonathan Baldwin,Chiefs,Pittsburgh
+2011,4,2,12,44,Titus Young,Lions,Boise State
+2011,5,2,26,58,Torrey Smith,Ravens,Maryland
+2011,6,2,27,59,Greg Little,Browns,North Carolina
+2011,7,2,32,64,Randall Cobb,Packers,Kentucky
+2011,8,3,14,78,Austin Pettis,Rams,Boise State
+2011,9,3,15,79,Leonard Hankerson,Redskins,Miami (FL)
+2011,10,3,18,82,Vincent Brown,Chargers,San Diego State
+2011,11,3,19,83,Jerrel Jernigan,Giants,Troy
+2011,12,4,10,107,Kris Durham,Seahawks,Georgia
+2011,13,4,14,111,Edmond Gates,Dolphins,Abilene Christian
+2011,14,4,15,112,Greg Salas,Rams,Hawaii
+2011,15,4,17,114,Cecil Shorts,Jaguars,Mount Union
+2011,16,4,26,123,Tandon Doss,Ravens,Indiana
+2011,17,5,1,132,Kealoha Pilares,Panthers,Hawaii
+2011,18,5,17,148,Denarius Moore,Raiders,Tennessee
+2011,19,5,22,153,Jeremy Kerley,Jets,Texas Christian
+2011,20,5,24,155,Niles Paul,Redskins,Nebraska
+2011,21,6,2,167,Ryan Whelan,Bengals,Stanford
+2011,22,6,11,176,Dwayne Harris,Cowboys,East Carolina
+2011,23,6,13,178,Aldrick Robinson,Redskins,Southern Methodist
+2011,24,6,17,182,Ronald Johnson,49ers,USC
+2011,25,7,24,227,Scotty McKnight,Jets,Colorado
+2011,26,7,33,236,Stephen Burton,Vikings,West Texas A&M
+2011,27,7,38,241,David Ausberry,Raiders,USC
+2011,28,7,46,249,Demarco Sampson,Cardinals,San Diego State
+2010,1,1,22,22,Demaryius Thomas,Broncos,Georgia Tech
+2010,2,1,24,24,Dez Bryant,Cowboys,Oklahoma State
+2010,3,2,7,39,Arrelious Benn,Buccaneers,Illinois
+2010,4,2,28,60,Golden Tate,Seahawks,Notre Dame
+2010,5,3,13,77,Damian Williams,Titans,USC
+2010,6,3,14,78,Brandon LaFell,Panthers,Louisiana State
+2010,7,3,18,82,Emmanuel Sanders,Steelers,Southern Methodist
+2010,8,3,20,84,Jordan Shipley,Bengals,Texas
+2010,9,3,23,87,Eric Decker,Broncos,Minnesota
+2010,10,3,24,88,Andre Roberts,Cardinals,Citadel
+2010,11,3,25,89,Armanti Edwards,Panthers,Appalachian State
+2010,12,3,26,90,Taylor Price,Patriots,Ohio
+2010,13,4,1,99,Mardy Gilyard,Rams,Cincinnati
+2010,14,4,3,101,Mike Williams,Buccaneers,Syracuse
+2010,15,4,9,107,Marcus Easley,Bills,Connecticut
+2010,16,4,10,108,Jacoby Ford,Raiders,Clemson
+2010,17,5,25,156,David Reed,Ravens,Utah
+2010,18,5,28,159,Riley Cooper,Eagles,Florida
+2010,19,5,34,165,Kerry Meier,Falcons,Kansas
+2010,20,6,8,177,Carlton Mitchell,Browns,South Florida
+2010,21,6,22,191,Dezmon Briscoe,Bengals,Kansas
+2010,22,6,26,195,Antonio Brown,Steelers,Central Michigan
+2010,23,6,29,198,David Gettis,Panthers,Baylor
+2010,24,6,37,206,Kyle Williams,49ers,Arizona State
+2010,25,7,12,219,Terrence Austin,Redskins,UCLA
+2010,26,7,15,222,Marc Mariani,Titans,Montana
+2010,27,7,48,255,Timothy Toone,Lions,Weber State
+2009,1,1,7,7,Darrius Heyward-Bey,Raiders,Maryland
+2009,2,1,10,10,Michael Crabtree,49ers,Texas Tech
+2009,3,1,19,19,Jeremy Maclin,Eagles,Missouri
+2009,4,1,22,22,Percy Harvin,Vikings,Florida
+2009,5,1,29,29,Hakeem Nicks,Giants,North Carolina
+2009,6,1,30,30,Kenny Britt,Titans,Rutgers
+2009,7,2,4,36,Brian Robiskie,Browns,Ohio State
+2009,8,2,18,50,Mohamed Massaquoi,Browns,Georgia
+2009,9,3,18,82,Derrick Williams,Lions,Penn State
+2009,10,3,19,83,Brandon Tate,Patriots,North Carolina
+2009,11,3,20,84,Mike Wallace,Steelers,Mississippi
+2009,12,3,21,85,Ramses Barden,Giants,Cal Poly
+2009,13,3,23,87,Patrick Turner,Dolphins,USC
+2009,14,3,27,91,Deon Butler,Seahawks,Penn State
+2009,15,3,35,99,Juaquin Iglesias,Bears,Oklahoma
+2009,16,4,7,107,Mike Thomas,Jaguars,Arizona
+2009,17,4,8,108,Brian Hartline,Dolphins,Ohio State
+2009,18,4,24,124,Louis Murphy,Raiders,Florida
+2009,19,4,27,127,Austin Collie,Colts,Brigham Young
+2009,20,5,4,140,Johnny Knox,Bears,Abilene Christian
+2009,21,5,5,141,Kenny McKinley,Broncos,South Carolina
+2009,22,5,8,144,Jarett Dillard,Jaguars,Rice
+2009,23,5,24,160,Brooks Foster,Rams,North Carolina
+2009,24,6,2,175,Quinten Lawrence,Chiefs,McNeese State
+2009,25,6,21,194,Brandon Gibson,Eagles,Washington State
+2009,26,6,33,206,Dominique Edison,Titans,Stephen F. Austin
+2009,27,7,15,224,Demetrius Byrd,Chargers,Louisiana State
+2009,28,7,20,229,Manuel Johnson,Cowboys,Oklahoma
+2009,29,7,23,232,Julian Edelman,Patriots,Kent State
+2009,30,7,24,233,Sammie Stroughter,Buccaneers,Oregon State
+2009,31,7,34,243,Marko Mitchell,Redskins,Nevada
+2009,32,7,42,251,Derek Kinder,Bears,Pittsburgh
+2009,33,7,43,252,Freddie Brown,Bengals,Utah
+2009,34,7,44,253,Tiquan Underwood,Jaguars,Rutgers
+2008,1,2,2,33,Donnie Avery,Rams,Houston
+2008,2,2,3,34,Devin Thomas,Redskins,Michigan State
+2008,3,2,5,36,Jordy Nelson,Packers,Kansas State
+2008,4,2,10,41,James Hardy,Bills,Indiana
+2008,5,2,11,42,Eddie Royal,Broncos,Virginia Tech
+2008,6,2,15,46,Jerome Simpson,Bengals,Coastal Carolina
+2008,7,2,18,49,DeSean Jackson,Eagles,California
+2008,8,2,20,51,Malcolm Kelly,Redskins,Oklahoma
+2008,9,2,22,53,Limas Sweed,Steelers,Texas
+2008,10,2,27,58,Dexter Jackson,Buccaneers,Appalachian State
+2008,11,3,7,70,Earl Bennett,Bears,Vanderbilt
+2008,12,3,18,81,Early Doucet,Cardinals,Louisiana State
+2008,13,3,21,84,Harry Douglas,Falcons,Louisville
+2008,14,3,32,95,Mario Manningham,Giants,Michigan
+2008,15,3,34,97,Andre Caldwell,Bengals,Florida
+2008,16,4,6,105,William Franklin,Chiefs,Missouri
+2008,17,4,7,106,Marcus Smith,Ravens,New Mexico
+2008,18,4,26,125,Arman Shields,Raiders,Richmond
+2008,19,4,27,126,Lavelle Hawkins,Titans,California
+2008,20,4,29,128,Keenan Burton,Rams,Kentucky
+2008,21,5,1,136,Kenneth Moore,Lions,Wake Forest
+2008,22,5,18,153,Matthew Slater,Patriots,UCLA
+2008,23,6,5,171,Marcus Henry,Jets,Kansas
+2008,24,6,8,174,Josh Morgan,49ers,Virginia Tech
+2008,25,6,16,182,Kevin Robinson,Chiefs,Utah State
+2008,26,6,25,191,Paul Hubbard,Browns,Wisconsin
+2008,27,6,27,193,Jaymar Johnson,Vikings,Jackson State
+2008,28,6,39,205,Pierre Garcon,Colts,Mount Union
+2008,29,7,8,215,Justin Harper,Ravens,Virginia Tech
+2008,30,7,10,217,Brett Swain,Packers,San Diego State
+2008,31,7,17,224,Steve Johnson,Bills,Kentucky
+2008,32,7,19,226,Chaz Schilens,Raiders,San Diego State
+2008,33,7,30,237,Adrian Arrington,Saints,Michigan
+2008,34,7,39,246,Mario Urrutia,Bengals,Louisville
+2008,35,7,41,248,Marcus Monk,Bears,Arkansas
+2007,1,1,2,2,Calvin Johnson,Lions,Georgia Tech
+2007,2,1,9,9,Ted Ginn,Dolphins,Ohio State
+2007,3,1,23,23,Dwayne Bowe,Chiefs,Louisiana State
+2007,4,1,27,27,Robert Meachem,Saints,Tennessee
+2007,5,1,30,30,Craig Davis,Chargers,Louisiana State
+2007,6,1,32,32,Anthony Gonzalez,Colts,Ohio State
+2007,7,2,12,44,Sidney Rice,Vikings,South Carolina
+2007,8,2,13,45,Dwayne Jarrett,Panthers,USC
+2007,9,2,19,51,Steve Smith,Giants,USC
+2007,10,3,9,73,Jacoby Jones,Texans,Lane
+2007,11,3,10,74,Yamon Figurs,Ravens,Kansas State
+2007,12,3,11,75,Laurent Robinson,Falcons,Illinois State
+2007,13,3,12,76,Jason Hill,49ers,Washington State
+2007,14,3,14,78,James Jones,Packers,San Jose State
+2007,15,3,15,79,Mike Walker,Jaguars,Central Florida
+2007,16,3,17,80,Paul Williams,Titans,Fresno State
+2007,17,3,36,99,Johnnie Lee Higgins,Raiders,Texas-El Paso
+2007,18,4,19,118,Ryne Robinson,Panthers,Miami (OH)
+2007,19,4,29,128,Chris Davis,Titans,Florida State
+2007,20,5,5,142,Steve Breaston,Cardinals,Michigan
+2007,21,5,9,146,Aundrae Allison,Vikings,East Carolina
+2007,22,5,20,157,David Clowney,Packers,Virginia Tech
+2007,23,5,32,169,Roy Hall,Colts,Ohio State
+2007,24,5,35,172,Legedu Naanee,Chargers,Boise State
+2007,25,6,14,188,Joel Filani,Titans,Texas Tech
+2007,26,6,23,197,Courtney Taylor,Seahawks,Auburn
+2007,27,6,36,210,Jordan Kent,Seahawks,Oregon
+2007,28,7,17,227,Dallas Baker,Steelers,Florida
+2007,29,7,19,229,John Broussard,Jaguars,San Jose State
+2007,30,7,23,233,Chandler Williams,Vikings,Florida International
+2007,31,7,24,234,Syndric Steptoe,Browns,Arizona
+2007,32,7,25,235,Chansi Stuckey,Jets,Clemson
+2007,33,7,39,249,Derek Stanley,Rams,Wisconsin-Whitewater
+2007,34,7,44,254,Jonathan Holland,Raiders,Louisiana Tech
+2006,1,1,25,25,Santonio Holmes,Steelers,Ohio State
+2006,2,2,4,36,Chad Jackson,Patriots,Florida
+2006,3,2,12,44,Sinorice Moss,Giants,Miami (FL)
+2006,4,2,20,52,Greg Jennings,Packers,Western Michigan
+2006,5,2,25,57,Devin Hester,Bears,Miami (FL)
+2006,6,3,14,78,Travis Wilson,Browns,Oklahoma
+2006,7,3,18,82,Derek Hagan,Dolphins,Arizona State
+2006,8,3,20,84,Brandon Williams,49ers,Wisconsin
+2006,9,3,26,90,Maurice Stovall,Buccaneers,Notre Dame
+2006,10,3,31,95,Willie Reid,Steelers,Florida State
+2006,11,4,6,103,Brad Smith,Jets,Missouri
+2006,12,4,7,104,Cory Rodgers,Packers,Texas Christian
+2006,13,4,12,109,Jason Avant,Eagles,Michigan
+2006,14,4,14,111,Demetrius Williams,Ravens,Oregon
+2006,15,4,18,115,Will Blackmon,Packers,Boston College
+2006,16,4,22,119,Brandon Marshall,Broncos,Central Florida
+2006,17,4,28,125,Skyler Green,Cowboys,Louisiana State
+2006,18,4,33,130,Domenik Hixon,Broncos,Akron
+2006,19,5,11,144,Marques Hagans,Rams,Virginia
+2006,20,5,14,147,Jeremy Bloom,Eagles,Colorado
+2006,21,6,2,171,Mike Hass,Saints,Oregon State
+2006,22,6,3,172,Jonathan Orr,Titans,Wisconsin
+2006,23,6,6,175,Delanie Walker,49ers,Central Missouri State
+2006,24,6,15,184,Adam Jennings,Falcons,Fresno State
+2006,25,6,21,190,Jeff Webb,Chiefs,San Diego State
+2006,26,7,1,209,Ethan Kilmer,Bengals,Penn State
+2006,27,7,10,218,Todd Watkins,Cardinals,Brigham Young
+2006,28,7,23,231,Bennie Brazell,Bengals,Louisiana State
+2006,29,7,25,233,Devin Aromashodu,Dolphins,Auburn
+2006,30,7,41,249,Ben Obomanu,Seahawks,Auburn
+2006,31,7,43,251,David Anderson,Texans,Colorado State
+2006,32,7,44,252,Marques Colston,Saints,Hofstra
+2006,33,7,47,255,Kevin McMahan,Raiders,Maine
+2005,1,1,3,3,Braylon Edwards,Browns,Michigan
+2005,2,1,7,7,Troy Williamson,Vikings,South Carolina
+2005,3,1,10,10,Mike Williams,Lions,USC
+2005,4,1,21,21,Matt Jones,Jaguars,Arkansas
+2005,5,1,22,22,Mark Clayton,Ravens,Oklahoma
+2005,6,1,27,27,Roddy White,Falcons,Alabama-Birmingham
+2005,7,2,3,35,Reggie Brown,Eagles,Georgia
+2005,8,2,7,39,Mark Bradley,Bears,Oklahoma
+2005,9,2,23,55,Roscoe Parrish,Bills,Miami (FL)
+2005,10,2,26,58,Terrence Murphy,Packers,Texas A&M
+2005,11,2,29,61,Vincent Jackson,Chargers,Northern Colorado
+2005,12,3,4,68,Courtney Roby,Titans,Indiana
+2005,13,3,19,83,Chris Henry,Bengals,West Virginia
+2005,14,3,32,96,Brandon Jones,Titans,Oklahoma
+2005,15,4,13,114,Jerome Mathis,Texans,Hampton
+2005,16,4,15,116,Craphonso Thorpe,Chiefs,Florida State
+2005,17,4,17,118,Chase Lyman,Saints,California
+2005,18,4,30,131,Fred Gibson,Steelers,Georgia
+2005,19,4,35,136,Roydell Williams,Titans,Tulane
+2005,20,5,4,140,Airese Currie,Bears,Clemson
+2005,21,5,19,155,Larry Brackins,Buccaneers,Pearl River C.C.
+2005,22,5,38,174,Rasheed Marshall,49ers,West Virginia
+2005,23,6,11,185,Chad Owens,Jaguars,Hawaii
+2005,24,6,16,190,Tab Perry,Bengals,UCLA
+2005,25,6,18,192,Dante Ridgeway,Rams,Ball State
+2005,26,6,21,195,Craig Bragg,Packers,UCLA
+2005,27,7,9,223,Marcus Maxwell,49ers,Oregon
+2005,28,7,11,225,Paris Warren,Buccaneers,Utah
+2005,29,7,12,226,LeRon McCoy,Cardinals,Indiana (PA)
+2005,30,7,26,240,Harry Williams,Jets,Tuskegee
+2005,31,7,39,253,J.R. Russell,Buccaneers,Louisville
+2004,1,1,3,3,Larry Fitzgerald,Cardinals,Pittsburgh
+2004,2,1,7,7,Roy Williams,Lions,Texas
+2004,3,1,9,9,Reggie Williams,Jaguars,Washington
+2004,4,1,13,13,Lee Evans,Bills,Wisconsin
+2004,5,1,15,15,Michael Clayton,Buccaneers,Louisiana State
+2004,6,1,29,29,Michael Jenkins,Falcons,Ohio State
+2004,7,1,31,31,Rashaun Woods,49ers,Oklahoma State
+2004,8,2,18,50,Devery Henderson,Saints,Louisiana State
+2004,9,2,22,54,Darius Watts,Broncos,Marshall
+2004,10,2,30,62,Keary Colbert,Panthers,USC
+2004,11,3,14,77,Derrick Hamilton,49ers,Clemson
+2004,12,3,15,78,Bernard Berrian,Bears,Fresno State
+2004,13,3,19,82,Devard Darling,Ravens,Washington State
+2004,14,4,3,99,Carlos Francis,Raiders,Texas Tech
+2004,15,4,9,105,Samie Parker,Chiefs,Oregon
+2004,16,4,12,108,Jerricho Cotchery,Jets,North Carolina State
+2004,17,4,24,120,Ernest Wilford,Jaguars,Virginia Tech
+2004,18,5,2,134,Johnnie Morant,Raiders,Syracuse
+2004,19,5,17,149,Maurice Mann,Bengals,Nevada
+2004,20,5,25,157,D.J. Hackett,Seahawks,Colorado
+2004,21,5,31,163,Drew Carter,Panthers,Ohio State
+2004,22,5,32,164,P.K. Sam,Patriots,Florida State
+2004,23,6,3,168,Jamaar Taylor,Giants,Texas A&M
+2004,24,6,4,169,Ryan Krause,Chargers,Nebraska-Omaha
+2004,25,6,6,171,Triandos Luke,Broncos,Alabama
+2004,26,6,30,195,Jeris McIntyre,Chiefs,Auburn
+2004,27,6,34,199,Clarence Moore,Ravens,Northern Arizona
+2004,28,7,5,206,Mark Jones,Buccaneers,Tennessee
+2004,29,7,10,211,Sloan Thomas,Texans,Texas
+2004,30,7,15,216,Patrick Crayton,Cowboys,Northwestern Oklahoma
+2004,31,7,43,244,Derek Abney,Ravens,Kentucky
+2003,1,1,2,2,Charles Rogers,Lions,Michigan State
+2003,2,1,3,3,Andre Johnson,Texans,Miami (FL)
+2003,3,1,17,17,Bryant Johnson,Cardinals,Penn State
+2003,4,2,12,44,Taylor Jacobs,Redskins,Florida
+2003,5,2,13,45,Bethel Johnson,Patriots,Texas A&M
+2003,6,2,22,54,Anquan Boldin,Cardinals,Florida State
+2003,7,2,28,60,Tyrone Calico,Titans,Middle Tennessee State
+2003,8,2,31,63,Teyo Johnson,Raiders,Stanford
+2003,9,3,1,65,Kelley Washington,Bengals,Tennessee
+2003,10,3,7,71,Nate Burleson,Vikings,Nevada
+2003,11,3,10,74,Kevin Curtis,Rams,Utah State
+2003,12,3,31,95,Billy McMullen,Eagles,Virginia
+2003,13,4,9,106,Shaun McDonald,Rams,Arizona State
+2003,14,4,27,124,Brandon Lloyd,49ers,Illinois
+2003,15,4,30,127,Sam Aiken,Bills,North Carolina
+2003,16,5,4,139,Bobby Wade,Bears,Arizona
+2003,17,5,8,143,Justin Gage,Bears,Missouri
+2003,18,5,23,158,Adrian Madise,Broncos,Texas Christian
+2003,19,5,24,159,Jon Olinger,Falcons,Cincinnati
+2003,20,5,32,167,Doug Gabriel,Raiders,Central Florida
+2003,21,5,34,169,J.R. Tolver,Dolphins,San Diego State
+2003,22,6,2,175,David Kircus,Lions,Grand Valley State
+2003,23,6,13,186,Zuriel Smith,Cowboys,Hampton
+2003,24,6,23,196,LaTarence Dunbar,Falcons,Texas Christian
+2003,25,6,24,197,Arnaz Battle,49ers,Notre Dame
+2003,26,6,26,199,Willie Ponder,Giants,Southeast Missouri State
+2003,27,6,30,203,Kareem Kelly,Saints,USC
+2003,28,6,38,211,David Tyree,Giants,Syracuse
+2003,29,7,7,221,Keenan Howry,Vikings,Oregon
+2003,30,7,10,224,Taco Wallace,Seahawks,Kansas State
+2003,31,7,12,226,Walter Young,Panthers,Illinois
+2003,32,7,17,231,Talman Gardner,Saints,Florida State
+2003,33,7,39,253,DeAndrew Rubin,Packers,South Florida
+2003,34,7,41,255,Kevin Walter,Giants,Eastern Michigan
+2003,35,7,42,256,Carl Ford,Packers,Toledo
+2003,36,7,46,260,Travis Anglin,Lions,Memphis
+2003,37,7,48,262,Ryan Hoag,Raiders,Gustavus Adolphus
+2002,1,1,13,13,Donte' Stallworth,Saints,Tennessee
+2002,2,1,19,19,Ashley Lelie,Broncos,Hawaii
+2002,3,1,20,20,Javon Walker,Packers,Florida State
+2002,4,2,1,33,Jabar Gaffney,Texans,Florida
+2002,5,2,4,36,Josh Reed,Bills,Louisiana State
+2002,6,2,14,46,Tim Carter,Giants,Auburn
+2002,7,2,15,47,Andre' Davis,Browns,Virginia Tech
+2002,8,2,16,48,Reche Caldwell,Chargers,Florida
+2002,9,2,30,62,Antwaan Randle El,Steelers,Indiana
+2002,10,2,31,63,Antonio Bryant,Cowboys,Pittsburgh
+2002,11,2,33,65,Deion Branch,Patriots,Louisville
+2002,12,3,21,86,Marquis Walker,Buccaneers,Michigan
+2002,13,3,22,87,Cliff Russell,Redskins,Utah
+2002,14,3,30,95,Eric Crouch,Rams,Nebraska
+2002,15,4,25,123,Ron Johnson,Ravens,Minnesota
+2002,16,5,7,142,Terry Charles,Chargers,Portland State
+2002,17,5,9,144,Herb Haygood,Broncos,Michigan State
+2002,18,5,14,149,Jason McAddley,Cardinals,Alabama
+2002,19,5,16,151,Jake Schifino,Titans,Akron
+2002,20,5,27,162,Freddie Milons,Eagles,Alabama
+2002,21,5,35,170,Sam Simmons,Dolphins,Northwestern
+2002,22,6,12,184,Kahlil Hill,Falcons,Iowa
+2002,23,6,23,195,LaMont Brightful,Ravens,Eastern Washington
+2002,24,6,30,202,Lee Mays,Steelers,Texas-El Paso
+2002,25,6,31,203,Jamin Elliott,Bears,Delaware
+2002,26,6,34,206,Javin Hunter,Ravens,Notre Dame
+2002,27,6,36,208,Deveren Johnson,Cowboys,Sacred Heart
+2002,28,7,6,217,Michael Coleman,Falcons,Widener
+2002,29,7,11,222,Kendall Newson,Jaguars,Middle Tennessee State
+2002,30,7,14,225,Darrell Hill,Titans,Northern Illinois
+2002,31,7,15,226,Daryl Jones,Giants,Miami (FL)
+2002,32,7,33,244,David Givens,Patriots,Notre Dame
+2002,33,7,39,250,Rodney Wright,Bills,Fresno State
+2002,34,7,43,254,Aaron Lockett,Buccaneers,Kansas State
+2001,1,1,8,8,David Terrell,Bears,Michigan
+2001,2,1,9,9,Koren Robinson,Seahawks,North Carolina State
+2001,3,1,15,15,Rod Gardner,Redskins,Clemson
+2001,4,1,16,16,Santana Moss,Jets,Miami (FL)
+2001,5,1,25,25,Freddie Mitchell,Eagles,UCLA
+2001,6,1,30,30,Reggie Wayne,Colts,Miami (FL)
+2001,7,2,2,33,Quincy Morgan,Browns,Kansas State
+2001,8,2,5,36,Chad Johnson,Bengals,Oregon State
+2001,9,2,10,41,Robert Ferguson,Packers,Texas A&M
+2001,10,2,21,52,Chris Chambers,Dolphins,Wisconsin
+2001,11,3,12,74,Steve Smith,Panthers,Utah
+2001,12,3,15,77,Marvin Minnis,Chiefs,Florida State
+2001,13,4,21,116,Milton Wynn,Rams,Washington State
+2001,14,4,29,124,Justin McCareins,Titans,Northern Illinois
+2001,15,4,36,131,Cedric James,Vikings,Texas Christian
+2001,16,5,5,136,Vinny Sutherland,Falcons,Purdue
+2001,17,5,9,140,Alex Bannister,Seahawks,Eastern Kentucky
+2001,18,5,17,148,Scotty Anderson,Lions,Grambling State
+2001,19,5,22,153,Onomo Ojo,Saints,California-Davis
+2001,20,5,23,154,Darnerien McCants,Redskins,Delaware State
+2001,21,5,28,159,Eddie Berlin,Titans,Northern Iowa
+2001,22,5,31,162,Jonathan Carter,Giants,Troy
+2001,23,6,3,166,Bobby Newcombe,Cardinals,Nebraska
+2001,24,6,6,169,Cedrick Wilson,49ers,Tennessee
+2001,25,6,27,190,Kevin Kasper,Broncos,Iowa
+2001,26,6,34,197,Francis St. Paul,Rams,Northern Arizona
+2001,27,6,35,198,David Martin,Packers,Tennessee
+2001,28,7,4,204,T.J. Houshmandzadeh,Bengals,Oregon State
+2001,29,7,8,208,John Capel,Bears,Florida
+2001,30,7,14,214,Reggie Germany,Bills,Ohio State
+2001,31,7,18,218,Chris Taylor,Steelers,Texas A&M
+2001,32,7,29,229,Ken-Yon Rambo,Raiders,Ohio State
+2001,33,7,35,235,Richmond Flowers,Jaguars,Chattanooga
+2001,34,7,36,236,Quentin McCord,Falcons,Kentucky
+2001,35,7,45,245,Andre King,Browns,Miami (FL)
+2000,1,1,4,4,Peter Warrick,Bengals,Florida State
+2000,2,1,8,8,Plaxico Burress,Steelers,Michigan State
+2000,3,1,10,10,Travis Taylor,Ravens,Florida
+2000,4,1,21,21,Sylvester Morris,Chiefs,Jackson State
+2000,5,1,29,29,R. Jay Soward,Jaguars,USC
+2000,6,2,1,32,Dennis Northcutt,Browns,Arizona
+2000,7,2,5,36,Todd Pinkston,Eagles,Southern Mississippi
+2000,8,2,16,47,Jerry Porter,Raiders,West Virginia
+2000,9,3,4,66,Ron Dugans,Bengals,Florida State
+2000,10,3,7,69,Dez White,Bears,Georgia Tech
+2000,11,3,8,70,Chris Cole,Broncos,Texas A&M
+2000,12,3,11,73,Ron Dixon,Giants,Lambuth (TN)
+2000,13,3,16,78,Laveranues Coles,Jets,Florida State
+2000,14,3,17,79,JaJuan Dawson,Browns,Tulane
+2000,15,3,18,80,Darrell Jackson,Seahawks,Florida
+2000,16,4,5,99,Gari Scott,Eagles,Michigan State
+2000,17,4,9,103,Danny Farmer,Steelers,UCLA
+2000,18,4,17,111,Trevor Gaylor,Chargers,Miami (OH)
+2000,19,4,20,114,Anthony Lucas,Packers,Arkansas
+2000,20,4,27,121,Avion Black,Bills,Tennessee State
+2000,21,5,14,143,Windrell Hayes,Jets,USC
+2000,22,5,22,151,Joey Jamison,Packers,Texas Southern
+2000,23,5,25,154,Muneer Moore,Broncos,Richmond
+2000,24,5,36,165,Troy Walters,Vikings,Stanford
+2000,25,6,6,172,Mareno Philyaw,Falcons,Troy
+2000,26,6,9,175,James Williams,Seahawks,Marshall
+2000,27,6,30,196,Emanuel Smith,Jaguars,Arkansas
+2000,28,6,34,200,Sherrod Gideon,Saints,Southern Mississippi
+2000,29,7,2,208,Desmond Kitchings,Chiefs,Furman
+2000,30,7,27,233,Drew Haddad,Bills,Buffalo
+2000,31,7,36,242,Charles Lee,Packers,Central Florida
+2000,32,7,40,246,Leroy Fields,Broncos,Jackson State
+2000,33,7,44,250,Ethan Howell,Redskins,Oklahoma State

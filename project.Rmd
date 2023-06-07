@@ -1,0 +1,372 @@
+---
+title: 'Predicting NFL Wide Receiver Fantasy Performance in their Rookie Season'
+author: "Dash Beavers, Shiley Einav, Zach Teplin"
+date: "6/7/23"
+output:
+  html_document:
+    df_print: paged
+header-includes:
+- \usepackage{bbm, amsmath,amsfonts,amsthm,amssymb,mathrsfs,amsxtra,amscd,latexsym,
+  xcolor, graphicx, fvextra}
+- \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+
+```{r setup, include=FALSE}
+suppressPackageStartupMessages(library(knitr)) #makes pdfs
+suppressPackageStartupMessages(library(latex2exp))
+suppressPackageStartupMessages(library(ggplot2)) #makes nice plots
+suppressPackageStartupMessages(library(tidyverse))
+suppressPackageStartupMessages(library(glmnet))
+suppressPackageStartupMessages(library(predtools))
+suppressPackageStartupMessages(library(psych))
+knitr::opts_chunk$set(echo = TRUE)
+
+suppressPackageStartupMessages(library(PerformanceAnalytics))
+```
+
+## Loading data files
+
+```{r}
+
+draft_order = read.csv("nfl_draft_wr_2000_2023.csv")
+
+ncaa10 = read.csv("all_data/NCAA Data - 2012.csv")
+ncaa9 = read.csv("all_data/NCAA Data - 2013.csv")
+ncaa8 = read.csv("all_data/NCAA Data - 2014.csv")
+ncaa7 = read.csv("all_data/NCAA Data - 2015.csv")
+ncaa6 = read.csv("all_data/NCAA Data - 2016.csv")
+ncaa5 = read.csv("all_data/NCAA Data - 2017.csv")
+ncaa4 = read.csv("all_data/NCAA Data - 2018.csv")
+ncaa3 = read.csv("all_data/NCAA Data - 2019.csv")
+ncaa2 = read.csv("all_data/NCAA Data - 2020.csv")
+ncaa1 = read.csv("all_data/NCAA Data - 2021.csv")
+ncaa0 = read.csv("all_data/NCAA Data - 2022.csv")
+
+combine10 = read.csv("all_data/Combine Data - 2013.csv")
+combine9 = read.csv("all_data/Combine Data - 2014.csv")
+combine8 = read.csv("all_data/Combine Data - 2015.csv")
+combine7 = read.csv("all_data/Combine Data - 2016.csv")
+combine6 = read.csv("all_data/Combine Data - 2017.csv")
+combine5 = read.csv("all_data/Combine Data - 2018.csv")
+combine4 = read.csv("all_data/Combine Data - 2019.csv")
+combine3 = read.csv("all_data/Combine Data - 2020.csv")
+combine2 = read.csv("all_data/Combine Data - 2021.csv")
+combine1 = read.csv("all_data/Combine Data - 2022.csv")
+combine0 = read.csv("all_data/Combine Data - 2023.csv")
+
+nfl10 = read.csv("all_data/NFL Fantasy Data - 2013.csv")
+nfl9 = read.csv("all_data/NFL Fantasy Data - 2014.csv")
+nfl8 = read.csv("all_data/NFL Fantasy Data - 2015.csv")
+nfl7 = read.csv("all_data/NFL Fantasy Data - 2016.csv")
+nfl6 = read.csv("all_data/NFL Fantasy Data - 2017.csv")
+nfl5 = read.csv("all_data/NFL Fantasy Data - 2018.csv")
+nfl4 = read.csv("all_data/NFL Fantasy Data - 2019.csv")
+nfl3 = read.csv("all_data/NFL Fantasy Data - 2020.csv")
+nfl2 = read.csv("all_data/NFL Fantasy Data - 2021.csv")
+nfl1 = read.csv("all_data/NFL Fantasy Data - 2022.csv")
+
+
+```
+
+## Manipulating tables
+
+```{r}
+
+draft_order_0 = filter(draft_order, Year == 2023)
+draft_order_1 = filter(draft_order, Year == 2022)
+draft_order_2 = filter(draft_order, Year == 2021)
+draft_order_3 = filter(draft_order, Year == 2020)
+draft_order_4 = filter(draft_order, Year == 2019)
+draft_order_5 = filter(draft_order, Year == 2018)
+draft_order_6 = filter(draft_order, Year == 2017)
+draft_order_7 = filter(draft_order, Year == 2016)
+draft_order_8 = filter(draft_order, Year == 2015)
+draft_order_9 = filter(draft_order, Year == 2014)
+draft_order_10 = filter(draft_order, Year == 2013)
+
+combine0 = filter(combine0, Pos == "WR")
+combine1 = filter(combine1, Pos == "WR")
+combine2 = filter(combine2, Pos == "WR")
+combine3 = filter(combine3, Pos == "WR")
+combine4 = filter(combine4, Pos == "WR")
+combine5 = filter(combine5, Pos == "WR")
+combine6 = filter(combine6, Pos == "WR")
+combine7 = filter(combine7, Pos == "WR")
+combine8 = filter(combine8, Pos == "WR")
+combine9 = filter(combine9, Pos == "WR")
+combine10 = filter(combine10, Pos == "WR")
+
+nfl1 = filter(nfl1, FantPos == "WR")
+nfl2 = filter(nfl2, FantPos == "WR")
+nfl3 = filter(nfl3, FantPos == "WR")
+nfl4 = filter(nfl4, FantPos == "WR")
+nfl5 = filter(nfl5, FantPos == "WR")
+nfl6 = filter(nfl6, FantPos == "WR")
+nfl7 = filter(nfl7, FantPos == "WR")
+nfl8 = filter(nfl8, FantPos == "WR")
+nfl9 = filter(nfl9, FantPos == "WR")
+nfl10 = filter(nfl10, FantPos == "WR")
+
+```
+
+## Creating singular data frame of rookie players
+
+```{r}
+
+drafted_ncaa1 = merge(draft_order_1, ncaa1, by = "Player")
+drafted_ncaa2 = merge(draft_order_2, ncaa2, by = "Player")
+drafted_ncaa3 = merge(draft_order_3, ncaa3, by = "Player")
+drafted_ncaa4 = merge(draft_order_4, ncaa4, by = "Player")
+drafted_ncaa5 = merge(draft_order_5, ncaa5, by = "Player")
+drafted_ncaa6 = merge(draft_order_6, ncaa6, by = "Player")
+drafted_ncaa7 = merge(draft_order_7, ncaa7, by = "Player")
+drafted_ncaa8 = merge(draft_order_8, ncaa8, by = "Player")
+drafted_ncaa9 = merge(draft_order_9, ncaa9, by = "Player")
+drafted_ncaa10 = merge(draft_order_10, ncaa10, by = "Player")
+
+full_1 = merge(drafted_ncaa1, nfl1, by = "Player")
+colnames(full_1)[9] = "Rk.x"
+colnames(full_1)[26] = "Rk.y"
+
+full_2 = merge(drafted_ncaa2, nfl2, by = "Player")
+full_3 = merge(drafted_ncaa3, nfl3, by = "Player")
+full_4 = merge(drafted_ncaa4, nfl4, by = "Player")
+full_5 = merge(drafted_ncaa5, nfl5, by = "Player")
+full_6 = merge(drafted_ncaa6, nfl6, by = "Player")
+full_7 = merge(drafted_ncaa7, nfl7, by = "Player")
+full_8 = merge(drafted_ncaa8, nfl8, by = "Player")
+full_9 = merge(drafted_ncaa9, nfl9, by = "Player")
+full_10 = merge(drafted_ncaa10, nfl10, by = "Player")
+
+full_combine1 = merge(full_1, combine1, by = "Player")
+full_combine2 = merge(full_2, combine2, by = "Player")
+full_combine3 = merge(full_3, combine3, by = "Player")
+full_combine4 = merge(full_4, combine4, by = "Player")
+full_combine5 = merge(full_5, combine5, by = "Player")
+full_combine6 = merge(full_6, combine6, by = "Player")
+full_combine7 = merge(full_7, combine7, by = "Player")
+full_combine8 = merge(full_8, combine8, by = "Player")
+full_combine9 = merge(full_9, combine9, by = "Player")
+full_combine10 = merge(full_10, combine10, by = "Player")
+
+full = rbind(full_1, full_2, full_3, full_4, full_5, full_6, full_7, full_8, full_9, full_10)
+
+full_combine = rbind(full_combine1, full_combine2, full_combine3, full_combine4, full_combine5,
+                     full_combine6, full_combine7, full_combine8, full_combine9, full_combine10)
+
+# Extra filtering to remove NaN
+full_combine = filter(full_combine, X40yd > 0)
+full_combine = filter(full_combine, Vertical > 0)
+
+```
+
+## Correlation matrix no combine
+
+``` {r}
+
+corr_data = data.matrix(full[, c("OverallPick","Rk.x","Rec.x","Yds.x","Avg","TD.x",
+                         "Plays","Yds.2.x","Avg.2","TD.2.x", "PPR", "FantPt")])
+chart.Correlation(corr_data, histogram=FALSE, pch=19)
+
+```
+
+
+## Correlation matrix with combine
+
+``` {r}
+
+corr_data = data.matrix(full_combine[, c("OverallPick","Rec.x","Yds.x","Avg","TD.x",
+                         "Plays","X40yd","Vertical", "PPR")])
+
+#trace("chart.Correlation", edit=T)
+
+
+chart.Correlation(corr_data, histogram=FALSE, pch=19, cex.labels = 20)
+
+```
+
+
+## Creating data frame of 2023 drafts for testing new new data
+
+```{r}
+
+drafted_ncaa0 = merge(draft_order_0, ncaa0, by = "Player")
+test_data = merge(drafted_ncaa0, combine0, by = "Player")
+
+# Filter combine data
+test_data = filter(test_data, X40yd > 0)
+test_data = filter(test_data, Vertical > 0)
+
+# Updating column names to match training data for prediction
+colnames(test_data)[9] = "Rk.x"
+colnames(test_data)[12] = "G.x"
+colnames(test_data)[13] = "Rec.x"
+colnames(test_data)[14] = "Yds.x"
+colnames(test_data)[16] = "TD.x"
+colnames(test_data)[17] = "Att.x"
+colnames(test_data)[18] = "Yds.1.x"
+colnames(test_data)[20] = "TD.1.x"
+colnames(test_data)[22] = "Yds.2.x"
+colnames(test_data)[24] = "TD.2.x"
+colnames(test_data)[25] = "X.9999.x"
+
+
+```
+
+
+## Preliminary linear regression model no combine
+
+This allowed us to start playing with model creating before having complete data set with combine to start initializing ideas.
+
+```{r}
+
+y = full$PPR
+x1 = full$OverallPick
+x2 = full$Yds.x
+x3 = full$Rec.x
+
+model_mlr = lm(y ~ x1 + x2 + x3, data = full)
+summary(model_mlr)
+
+model_draft_pos = lm(y ~ x1, data = full)
+summary(model_draft_pos)
+
+model_rec_yds = lm(y ~ x2, data = full)
+summary(model_rec_yds)
+
+```
+
+
+## Lasso regression model no combine
+
+This allowed us to start playing with model creating before having complete data set with combine to start initializing ideas.
+
+```{r}
+
+y = full$PPR
+x = data.matrix(full[, c("OverallPick","Rk.x","Rec.x","Yds.x","Avg","TD.x",
+                         "Plays","Yds.2.x","Avg.2","TD.2.x")])
+
+cv_model = cv.glmnet(x, y, alpha = 1)
+best_lambda = cv_model$lambda.min
+
+best_model = glmnet(x, y, alpha = 1, lambda = best_lambda)
+coef(best_model)
+
+#find R-Squared
+y_predicted <- predict(best_model, s = best_lambda, newx = x)
+sst <- sum((y - mean(y))^2)
+sse <- sum((y_predicted - y)^2)
+rsq <- 1 - sse/sst
+rsq
+
+```
+
+
+## Preliminary linear regression model with combine; test on 2023 data included
+
+```{r}
+
+# Initialize variables
+y = full_combine$PPR
+OverallPick = full_combine$OverallPick
+X40yd = full_combine$X40yd
+x3 = full_combine$Rec.x
+Yds.x = full_combine$Yds.x
+TD.x = full_combine$TD.x
+
+# Run different model combinations
+model_mlr <- lm(y ~ OverallPick + X40yd + Yds.x + TD.x, data = full_combine)
+summary(model_mlr)
+
+#model_draft_pos = lm(y ~ x1, data = full)
+#summary(model_draft_pos)
+
+#model_rec_yds = lm(y ~ x2, data = full)
+#summary(model_rec_yds)
+
+# Run model prediction
+test_data$mlr_prediction = predict(model_mlr, newdata=test_data)
+
+```
+
+
+## Lasso regression model with combine; test on 2023 data included
+
+```{r}
+# Organize training data for lasso
+y = full_combine$PPR
+x = data.matrix(full_combine[, c("OverallPick","Rk.x","Rec.x","Yds.x","Avg","TD.x",
+                         "Plays","Yds.2.x","Avg.2","TD.2.x", "X40yd", "Vertical")])
+
+cv_model = cv.glmnet(x, y, alpha = 1)
+best_lambda = cv_model$lambda.min
+
+best_model = glmnet(x, y, alpha = 1, lambda = best_lambda)
+coef(best_model)
+
+#find R-Squared
+y_predicted <- predict(best_model, s = best_lambda, newx = x)
+sst <- sum((y - mean(y))^2)
+sse <- sum((y_predicted - y)^2)
+rsq <- 1 - sse/sst
+rsq
+
+# Lasso prediction
+# Make test data to match train data
+x_test = data.matrix(test_data[, c("OverallPick","Rk.x","Rec.x","Yds.x","Avg","TD.x",
+                         "Plays","Yds.2.x","Avg.2","TD.2.x", "X40yd", "Vertical")])
+test_data$lasso_prediction = predict(best_model, s = best_lambda, newx = x_test)
+
+```
+
+## Run models on a year of data we have fantasy points to see how it performs
+## Data frame of 2013-2021 and then test of model performance on 2022 data
+
+```{r}
+# Training data frame
+full_combine_verify = rbind(full_combine2, full_combine3, full_combine4, full_combine5,
+                     full_combine6, full_combine7, full_combine8, full_combine9, full_combine10)
+
+full_combine_verify = filter(full_combine_verify, X40yd > 0)
+full_combine_verify = filter(full_combine_verify, Vertical > 0)
+
+# Test data frame
+test_data_verify = full_combine1
+test_data_verify = filter(test_data_verify, X40yd > 0)
+test_data_verify = filter(test_data_verify, Vertical > 0)
+
+# MLR model creation
+y = full_combine_verify$PPR
+OverallPick = full_combine_verify$OverallPick
+X40yd = full_combine_verify$X40yd
+x3 = full_combine_verify$Rec.x
+Yds.x = full_combine_verify$Yds.x
+TD.x = full_combine_verify$TD.x
+
+model_mlr_verify <- lm(y ~ OverallPick + X40yd + Yds.x + TD.x, data = full_combine_verify)
+
+# Lasso model
+y = full_combine_verify$PPR
+x = data.matrix(full_combine_verify[, c("OverallPick","Rk.x","Rec.x","Yds.x","Avg","TD.x",
+                         "Plays","Yds.2.x","Avg.2","TD.2.x", "X40yd", "Vertical")])
+cv_model_verify = cv.glmnet(x, y, alpha = 1)
+best_lambda_verify = cv_model_verify$lambda.min
+
+best_model_verify = glmnet(x, y, alpha = 1, lambda = best_lambda_verify)
+
+# Run both models
+test_data_verify$mlr_pred = predict(model_mlr_verify, newdata=test_data_verify)
+
+lasso_test_verify = data.matrix(test_data_verify[, c("OverallPick","Rk.x","Rec.x","Yds.x","Avg","TD.x",
+                         "Plays","Yds.2.x","Avg.2","TD.2.x", "X40yd", "Vertical")])
+test_data_verify$lasso_pred = predict(best_model_verify, s = best_lambda_verify, newx = lasso_test_verify)
+
+# RMSE for both models
+RMSE_mlr = mean((test_data_verify$PPR - test_data_verify$mlr_pred)^2)
+RMSE_lasso = mean((test_data_verify$PPR - test_data_verify$lasso_pred)^2)
+
+RMSE_mlr
+RMSE_lasso
+
+```
+
